@@ -94,7 +94,7 @@ body{
         background-image: url(/image/js-pics.png);
         position: absolute;
         filter: blur(3px);
-        z-index: 1;
+        z-index: 100;
         top:0px !important;
         left:0px !important;
         right: 0px!important;
@@ -105,7 +105,7 @@ body{
         background-image: url(/image/data-pics.jpg);
         position: absolute;
         filter: blur(3px);
-        z-index: 1 !important;
+        z-index: 100 !important;
         left:0 !important;
         right:0 !important;
         bottom:0 !important;
