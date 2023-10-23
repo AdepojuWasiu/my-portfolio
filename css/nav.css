@@ -1,0 +1,48 @@
+.nav-container{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:80vw;
+    height: 53px;
+    z-index: 200;
+    background-color:rgb(12, 11, 11);
+    display: flex;
+    text-align: right;
+    justify-content: right;
+
+}
+.nav-list{
+list-style-type:none;
+}
+.nav-list li{
+float:left;
+margin:25px;
+margin-top: 0px;
+ 
+}
+.nav-list  a{
+font-size: 30px;
+color:purple;
+text-decoration: none;
+}
+.nav-list a:hover{
+    color: rgb(120, 43, 43);
+}
+
+.nav-list a.active{
+    color:red;
+}
+.menu-container{
+    margin:20px;
+    margin-bottom: -10px;
+    display: none;
+}
+
+.menu-button{
+    width:50px;
+    margin-bottom:0px;
+}
+.nav-button-container{
+    display:none;
+}

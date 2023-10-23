@@ -1,0 +1,62 @@
+.expertise-container h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+
+}
+
+.main-expertise{
+    position: relative;
+    height: 1000px;
+}
+.web-background-expertise{
+    background-image: url(/image/js-pics.png);
+    position: absolute;
+    filter: blur(3px);
+    z-index: 1;
+    top:0;
+    left:0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+}
+.data-background-expertise{
+    background-image: url(/image/data-pics.jpg);
+    position: absolute;
+    filter: blur(3px);
+    z-index: 1;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 50%;
+    height: 100%;
+
+}
+.expertise{
+    display:grid;
+    grid-template-columns: 600px 600px;
+    text-align: center;
+    justify-content: center;
+    column-gap: 60px;
+    z-index: 150;
+    position: relative;
+
+}
+.web-expertise, .data-expertise{
+    border: 5px solid;
+    border-color: rgb(172, 169, 169);
+    border-radius: 40px;
+    background-color: black;
+    margin-top: 200px;
+
+}
+.web-expertise h2, .data-expertise h2{
+    font-size: 50px;
+}
+.web-expertise p, .data-expertise p{
+    font-size: 35px;
+}
+.expertise-container{
+    margin-top: 200px;
+}

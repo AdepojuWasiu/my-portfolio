@@ -1,0 +1,95 @@
+.experience-main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.experience-main-container h1{
+    font-size: 80px;
+    text-align: center;
+}
+.company-name{
+    background-color: rgb(141, 37, 238);
+    padding-left:30px;
+    border-radius: 10px;
+    width: 1090px;
+    align-self: center;
+    position: relative;
+}
+.company-name h2{
+    font-size: 25px;
+}
+.experience-year{
+    position:absolute;
+    right: 25px;
+    top:0px;
+    bottom:0px;
+
+}
+.contributions{
+    font-size: 25px;
+    background-color: rgb(27, 4, 48);
+    width: 1100px;
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.experience-tools button{
+    font-size: 20px;
+    background-color: rgb(44, 53, 153);
+    color: rgba(255, 255, 255);
+    padding: 10px 20px;
+    border:none;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+.contact-container{
+    background-color: black;
+    height: 500px;
+    margin-top: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.contact-left{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.contact-container img{
+    width:40px;
+}
+
+.contact-container a{
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+.sub-contact{
+    margin-bottom: 50px;
+    margin-left: 30px;
+
+}
+.contact-right{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.contact-right h2{
+    font-size:50px;   
+}
+.contact-right li{
+    font-size:40px;
+}
+
