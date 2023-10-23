@@ -25,6 +25,7 @@ body{
         text-align: right !important;
         justify-content: right !important;
         padding-top: 50px;
+        overflow-x: hidden !important;
     
     }
     .close-container{
